@@ -1,0 +1,168 @@
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  
+}
+.myDIV:hover {
+  display: none;
+  
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1100ff;
+}
+
+header {
+  background-color: #1100ff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #030030;
+}
+
+.hero {
+  border-radius: 35px 35px 0 0;
+  background-image: linear-gradient(to bottom, #1100ff, #030030);
+  background-size: 100%;
+  background-position: 0% 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 34px;
+  
+  text-align: left;
+}
+
+.hero p {
+  font-size: 30px;
+  text-align: right;
+}
+
+.about {
+  background-color: #030029;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.about h2 {
+  font-size: 24px;
+  color:rgb(255, 255, 255);
+}
+
+.about p {
+  font-size: 18px;
+  color:rgb(255, 255, 255);
+}
+
+.learn-more {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  background-color: #555;
+}
+
+.rituals {
+  background-color: #030029;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.rituals h2 {
+  font-size: 24px;
+  color:rgb(255, 255, 255);
+}
+
+.rituals ul {
+  list-style: none;
+  color:rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+.rituals li {
+  margin-bottom: 10px;
+}
+
+.hierarchy {
+  background-color: #030029;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.hierarchy h2 {
+  font-size: 24px;
+  color:rgb(255, 255, 255);
+}
+
+.hierarchy ol {
+  list-style: none;
+  color:rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+
+.hierarchy li {
+  margin-bottom: 10px;
+}
+
+.hierarchy-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.hierarchy-images {
+  display: flex;
+  flex-direction: row; /* images side by side */
+  gap: 10px; /* spacing between them */
+}
+
+.hierarchy-images img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0 0 25px 25px ;
+  
+}
